@@ -27,11 +27,11 @@ jobs:
         uses: NuGet/setup-nuget@v2
 
       - name: Restore NuGet Packages
-        run: nuget restore Re4QuadRemake.sln
+        run: nuget restore Re4QuadRemake/Re4QuadRemake.sln
 
       - name: Build Solution
         run: >
-          msbuild Re4QuadRemake.sln
+          msbuild Re4QuadRemake/Re4QuadRemake.sln
           /p:Configuration=Release
           /p:Platform="Any CPU"
           /m
@@ -40,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Re4QuadRemake
-          path: bin/Release/**
+          path: Re4QuadRemake/bin/Release/**
