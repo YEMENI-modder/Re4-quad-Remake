@@ -10,6 +10,7 @@
 
 <img width="1294" height="708" alt="Screenshot_20260721_180350" src="https://github.com/user-attachments/assets/ab3b31ec-c47a-4391-be39-1a0d514d5b49" />
 
+
 Since the original project by **[@JADERLINK](https://github.com/JADERLINK)** is no longer actively maintained, this fork focuses on improving stability, adding missing features, supporting NewAge file formats, and making the editor more practical for everyday Resident Evil 4 modding.
 
 The goal is **not to replace the original project**, but to extend and modernize it while keeping it familiar for existing users.
