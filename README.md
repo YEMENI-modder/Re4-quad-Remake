@@ -9,7 +9,7 @@
 
 **Re4QuadRemake** is a fork of [Re4QuadExtremeEditor](https://github.com/JADERLINK/Re4QuadExtremeEditor), created to continue the development of the original project.
 
-Since the original project by **JADERLINK** is no longer actively maintained, this fork focuses on improving stability, adding missing features, supporting newer Resident Evil 4 resources, and making the editor more practical for everyday modding.
+Since the original project by **[@JADERLINK](https://github.com/JADERLINK)** is no longer actively maintained, this fork focuses on improving stability, adding missing features, supporting NewAge file formats, and making the editor more practical for everyday Resident Evil 4 modding.
 
 The goal is **not to replace the original project**, but to extend and modernize it while keeping it familiar for existing users.
 
@@ -45,6 +45,12 @@ Although some formats (such as ITA, ETS, and AEV) are compatible with the 2007 v
 - The project is stable but still under active development.
 - The Arabic translation is not yet complete.
 - This editor is intended for the UHD version only.
+- Currently, only **English** and **Arabic** are available. The original Portuguese translation has been removed.
+- In the **3D View**, right-click actions are currently unavailable for the following file types:
+  - SAR
+  - EAR
+  - FSE
+- The same issue may also affect **EMI**, **EFFBLOB**, and **ESE**, although this has not been fully verified yet.
 - If you encounter any bugs or unexpected behavior, please open an Issue.
 
 ---
@@ -53,27 +59,25 @@ Although some formats (such as ITA, ETS, and AEV) are compatible with the 2007 v
 
 ### Original Project
 
-**JADERLINK** — Creator of Re4QuadExtremeEditor.
+- **[@JADERLINK](https://github.com/JADERLINK)** — Creator of **Re4QuadExtremeEditor**.
 
-https://github.com/JADERLINK/Re4QuadExtremeEditor
+  Repository: https://github.com/JADERLINK/Re4QuadExtremeEditor
 
 ### Fork Maintainer
 
-**YEMENI**
+- **YEMENI**
 
 ### AI-Assisted Development
 
-Most of this project was developed with assistance from **Claude Sonnet 5**.
+This project was developed primarily using **Claude Sonnet 5**, which was responsible for approximately **98%** of the implementation.
+
+The remaining work, including manual modifications, testing, debugging, and final adjustments, was completed by **YEMENI**.
 
 ### Special Thanks
 
-**@mualzahrani-wq** — For the Dark Mode implementation that inspired this project.
+- **[@mualzahrani-wq](https://github.com/mualzahrani-wq)** — For the Dark Mode implementation that inspired this project.
 
-https://github.com/mualzahrani-wq/Re4QuadExtremeEditor
-
-**@r3nzk** — For RE4QuadX and several ideas that inspired this fork.
-
-https://github.com/r3nzk/Re4QuadX
+- **[@r3nzk](https://github.com/r3nzk)** — For RE4QuadX and several ideas that inspired this fork.
 
 ---
 
