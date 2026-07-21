@@ -6,7 +6,7 @@
 
 # About
 
-**Re4QuadRemake** is a fork of [Re4QuadExtremeEditor](https://github.com/JADERLINK/Re4QuadExtremeEditor), created to continue the development of the original project.
+**Re4QuadRemake** is a fork of [Re4QuadExtremeEditor](https://github.com/JADERLINK/Re4QuadExtremeEditor), created to continue and modernize the development of the original project.
 
 <img width="1294" height="708" alt="Screenshot_20260721_180350" src="https://github.com/user-attachments/assets/ab3b31ec-c47a-4391-be39-1a0d514d5b49" />
 
@@ -95,15 +95,19 @@ Repository: https://github.com/JADERLINK/Re4QuadExtremeEditor
 
 ### AI-Assisted Development
 
-This project was developed primarily using **Claude Sonnet 5**, which was responsible for approximately **98%** of the implementation.
+Approximately **98%** of this project's codebase was implemented using **Claude Sonnet 5**.
 
-The remaining work, including manual modifications, testing, debugging, and final adjustments, was completed by **YEMENI**.
+AI was used as the primary implementation tool, while all testing, validation, debugging, integration, manual adjustments, and final project decisions were performed by **YEMENI**.
 
 ### Special Thanks
 
 - **[@mualzahrani-wq](https://github.com/mualzahrani-wq)** — For the Dark Mode implementation that inspired this project.
 
-- **[@r3nzk](https://github.com/r3nzk)** — For RE4QuadX and several ideas that inspired this fork.
+  Repository: https://github.com/mualzahrani-wq/Re4QuadExtremeEditor
+
+- **[@r3nzk](https://github.com/r3nzk)** — For **Re4QuadX** and several ideas that inspired this fork.
+
+  Repository: https://github.com/r3nzk/Re4QuadX
 
 ---
 
