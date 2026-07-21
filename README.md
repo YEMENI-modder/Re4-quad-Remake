@@ -1,7 +1,6 @@
 # Re4QuadRemake
 
 [![Version](https://img.shields.io/badge/Version-1.0.0.0-red?style=flat-square)](https://github.com/YEMENI-modder/RE4-Quad-Remake/releases/latest)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Winlator%20%7C%20Linux%20Wine-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 [![Downloads](https://img.shields.io/github/downloads/YEMENI-modder/RE4-Quad-Remake/total.svg?cacheSeconds=0)](https://github.com/YEMENI-modder/RE4-Quad-Remake/releases)
 
@@ -9,20 +8,47 @@
 
 **Re4QuadRemake** is a fork of [Re4QuadExtremeEditor](https://github.com/JADERLINK/Re4QuadExtremeEditor), created to continue the development of the original project.
 
+<img width="1294" height="708" alt="Screenshot_20260721_180350" src="https://github.com/user-attachments/assets/ab3b31ec-c47a-4391-be39-1a0d514d5b49" />
+
 Since the original project by **[@JADERLINK](https://github.com/JADERLINK)** is no longer actively maintained, this fork focuses on improving stability, adding missing features, supporting NewAge file formats, and making the editor more practical for everyday Resident Evil 4 modding.
 
 The goal is **not to replace the original project**, but to extend and modernize it while keeping it familiar for existing users.
 
 ---
 
-# Features
+# Supported Platforms
+
+- Windows 11
+- Windows 10
+- Winlator (with Wine-Mono)
+- Linux/Wine (with Wine-Mono)
+
+---
+
+# Fork Features
+
+### New functionality
 
 - Added support for NewAge file formats.
-- Added SMD support.
-- Added ImagePackHD support.
+- Added SMD + ImagePackHD support.
 - Added Dark Mode and Light Mode.
 - Added a built-in FPS counter.
 - Integrated the EFFBLOB tool directly into the editor.
+- Added **Save All**.
+- Added **Clear All**.
+- Added a project system.
+- Added automatic room loading. Selecting a room automatically loads its associated files (AEV, ITA, CAM, LIT, etc.).
+- Projects now save:
+  - Current map.
+  - Whether the map uses SMD.
+  - Camera position.
+  - Save directory.
+  - All opened files.
+  - Unsaved modifications.
+
+### Improvements
+
+- Improved the application exit dialog for a faster workflow.
 - Documented and named several previously unknown fields, including AEV Type 6 and ESL Types 40 & 41.
 - Added partial Arabic localization.
 - Added various quality-of-life improvements.
@@ -61,7 +87,7 @@ Although some formats (such as ITA, ETS, and AEV) are compatible with the 2007 v
 
 - **[@JADERLINK](https://github.com/JADERLINK)** — Creator of **Re4QuadExtremeEditor**.
 
-  Repository: https://github.com/JADERLINK/Re4QuadExtremeEditor
+Repository: https://github.com/JADERLINK/Re4QuadExtremeEditor
 
 ### Fork Maintainer
 
