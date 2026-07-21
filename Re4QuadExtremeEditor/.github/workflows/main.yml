@@ -1,0 +1,43 @@
+name: Build EXE
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install .NET Framework 4.8 Dev Pack
+        run: choco install netfx-4.8-devpack -y --no-progress
+        shell: powershell
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v2
+
+      - name: Restore NuGet Packages
+        run: nuget restore Re4QuadRemake.sln
+
+      - name: Build Solution
+        run: >
+          msbuild Re4QuadRemake.sln
+          /p:Configuration=Release
+          /p:Platform="Any CPU"
+          /m
+
+      - name: Upload Build
+        uses: actions/upload-artifact@v4
+        with:
+          name: Re4QuadRemake
+          path: bin/Release/**
